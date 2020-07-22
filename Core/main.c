@@ -6,6 +6,7 @@
  */
 
 #include <stdio.h>
+#include <unistd.h>
 #include <GL/glut.h>
 #include <stdbool.h>
 #include "GCA.h"

@@ -64,3 +64,11 @@ Compile using mingw with the following command
 ``` gcc Core/*.c -o instant_melee.exe -lwinmm '-lusb-1.0' ```
 
 you will need the addition libusb-1.0 library
+
+## Building from source (Linux release)
+
+Compile with gcc, you'll need freeglut-dev for windowing and libusb, check your distributions repositories. Note that you may need to include the /usr/.../libusb-1.0/ directory for libusb.h.
+
+``` gcc Core/*.c -o instant_melee -I/usr/include/libusb-1.0/ -lusb-1.0 -lglut ```
+
+The linux build uses mpv to play sound once start is pressed, make sure mpv is intalled if you want that support. 
