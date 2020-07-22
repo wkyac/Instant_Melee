@@ -9,7 +9,7 @@
 // Care for trailing whitespaces!
 ////////////////////////////////////////////////////////////////////////////////////
 
-DOLPHIN_PATH=../Downloads/Slippi_Online-x86_64.AppImage
+DOLPHIN_PATH=
 START_SOUND_PATH=sounds/menu-ok.wav
 KEY_BUTTON=0x1000
 
